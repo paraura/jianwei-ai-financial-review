@@ -1,0 +1,5 @@
+请先解压本包。上传到GitHub时，进入这个目录，上传里面的内容，而不是再套一层“见微_产品与使用包”文件夹，也不要只上传ZIP。
+仓库首页应直接出现README.md、docs、sample-data、src、scripts、tests、package.json。
+Mac按Command+Shift+.显示隐藏文件，将.env.example、.gitignore、.openai一起上传。它们不包含真实密钥。
+已有根目录README.md应替换成这里的README.md。旧ZIP和多余套层文件夹可在确认新内容齐全后删除。
+worker/index.js为构建生成文件，无需上传；运行方法见README链接的开发文档。

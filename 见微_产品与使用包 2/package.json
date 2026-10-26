@@ -1,0 +1,10 @@
+{
+  "name": "report-lens",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/assemble.mjs && bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "test": "node scripts/assemble.mjs && node --test tests/core.test.mjs"
+  }
+}
